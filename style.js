@@ -19,7 +19,7 @@ let style = StyleSheet.create({
   dateInput: {
     flex: 1,
     height: 40,
-    borderWidth: 1,
+    borderWidth: 0,
     borderColor: '#aaa',
     alignItems: 'center',
     justifyContent: 'center'
@@ -45,7 +45,6 @@ let style = StyleSheet.create({
     position: 'absolute',
     top: 0,
     height: 42,
-    padding: 20,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center'
